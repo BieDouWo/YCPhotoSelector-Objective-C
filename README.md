@@ -7,4 +7,5 @@ iOS8新出的PhotosKit编写的，支持多选、滑动选择、限制选择的�
 # Swift版本
 https://github.com/BieDouWo/YCPhotoSelector-Swift.git
 
+# 截图
 ![](https://github.com/BieDouWo/YCPhotoSelector-Objective-C/blob/master/demo.gif?raw=true)
