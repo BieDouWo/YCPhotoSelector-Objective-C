@@ -42,10 +42,10 @@
     
     //获取照片或视频缩略图
     CGFloat scale = [UIScreen mainScreen].scale;
-    CGSize imageViewSize = CGSizeMake(100, 100);
-    CGSize assetGridThumbnailSize = CGSizeMake(imageViewSize.width * scale, imageViewSize.height * scale);
+    CGSize imageSize = CGSizeMake(100, 100);
+    CGSize size = CGSizeMake(imageSize.width * scale, imageSize.height * scale);
     [[PHImageManager defaultManager] requestImageForAsset:asset
-                                               targetSize:assetGridThumbnailSize
+                                               targetSize:size
                                               contentMode:PHImageContentModeAspectFit
                                                   options:nil
                                             resultHandler:^(UIImage *result, NSDictionary *info) {
